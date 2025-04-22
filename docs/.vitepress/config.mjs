@@ -229,4 +229,16 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/00zsq' }
     ]
   },
+  vite: {
+    resolve: {
+      alias: {
+        'zqs-ui3': path.resolve(__dirname, 'D:/code/zqs-blog/node_modules/zqs-ui3'),
+      }
+    },
+    css: {
+      css: {
+        minify: false,
+      },
+    }
+  },
 })

@@ -17,9 +17,9 @@ onMounted(() => {
 <template>
   <Giscus
     repo="00zsq/ZQS-BLOG"
-    repo-id="R_kgDOOYYVPw"
+    repo-id="R_kgDOOde6rQ"
     category="Announcements"
-    category-id="DIC_kwDOOYYVP84CpRvc"
+    category-id="DIC_kwDOOde6rc4CpVDD"
     mapping="pathname"
     strict="1"
     reactions-enabled="1"
